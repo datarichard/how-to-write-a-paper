@@ -5,7 +5,7 @@ bibliography: src/references.bib
 csl: src/elsevier-harvard.csl
 output:  
   word_document:
-    reference_docx: src/Rmarkdown-for-Word-style.docx
+    reference_docx: src/Rmarkdown-for-Word-styles.docx
 always_allow_html: yes
 editor_options: 
   chunk_output_type: console
@@ -76,68 +76,39 @@ Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo [@cla
 
 Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
 
-## Method  
+<br>
+
+## Method    
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
 
-### Subheading 3  
+### Sub Method (H3)  
 
 Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat.  
 
-#### Subheading 4  
+#### Sub Method (H4)  
 
 Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam.  
 
-##### Subheading 5  
+##### Sub Method (H5)  
 
-Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
+This is the lowest level of heading that should be used. Subordinate levels are too small to read in HTML. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi.  
 
-###### Subheading 6  
+###### Sub Method (H6)  
 
 Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis.  
 
-####### There is an invisible subheading 7  
+####### There is an invisible subheading (H7)  
 
-It appears under the "Normal" style, but will not be listed in ToC or indexes.  
-
-######## There is no subheading 8  
-
-It will appear as the same as subheading 7 ("Normal") and not indexed.  
-
-Dot points can be made with:  
-
-- First dot point
-- Second dot point
-- Third dot point  
-
-Lists can also be ordered by letters:  
-
-a. First item
-b. Second item
-c. Third item  
-
-
-Or Lists can be ordered by numbers:  
-
-1. Item 1
-2. Item 2
-    a. Item 2a
-    b. Item 2b
-3. Item 3
-    + Item 3a unordered
-    + Item 3b unordered  
-    
+It appears under the "Normal" style, but will not be listed in ToC or indexes. Any heading subordinate to "H7" (e.g., "H8", "H9" etc) will have the same properties of "H7". It will appear as the same as subheading H7 ("Normal") and not indexed. In a github document it will appear as a H1 level header and for this reason should be avoided for cross-compatibility.    
    
 <br>
 
 Text can be quoted:  
 
-> This text has a unique MS-Word style "Block Text". Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros.  
-
+> This text has a unique MS-Word style "Block Text". It is unlikely to be useful since it looks so ugly in HTML. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros.  
 
 <br>
-
-
 
 
 **Bold text can look like a heading**  
@@ -146,11 +117,13 @@ But you need to watch the line breaks. Integer ultrices lobortis eros. Pellentes
 _Italicized text can also look like a heading_  
 But line breaks are again important. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus.  
 
+<br>
+
 ## Results  
 
 Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
 
-You can print pretty tables using flextable like this:
+Note that you cannot use kable() to print tables in Word. You can print pretty tables in HTML and Word using flextable like this:  
 
 ```{r cars, ft.align="left", message=F, warning=F}
 library(dplyr)
@@ -158,25 +131,39 @@ library(flextable)
 
 head(mtcars) %>%
   flextable() %>%
-  set_caption("Tables need a heading") %>%
+  set_caption("Table 1. Heading style is named table heading") %>%
   autofit()
+
+# head(mtcars) %>%
+#   knitr::kable(
+#     format = "html",
+#     caption = "Table 1. Heading style is named table heading")
 ```
 
 <br>
 
-Figures need to have numbered titles and legends, for example:  
+Figures presented in the results will need to have numbered titles and legends, for example:  
 
 <br>
 
-##### Figure 1. Fifth level title
+##### Figure 1. Figure title H5
 ```{r pressure, dpi=150}
 plot(pressure)
 ```
 ```
 Figure 1 legend: Plots also need a figure legend. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. 
-```
+```  
+
+<br>
+
+## Discussion  
+
+Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo [@clark2018four; @frijters2020happy; @diener2017findings; @kahneman2010high]. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. @kahneman2010high cras faucibus condimentum odio. Kettlewell et al [-@kettlewell2020differential] aliquam at eros. Sed ac ligula. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl. Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris [for review see @clark2018four; but see @frijters2020happy].   
+
+Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
 
 
 <br><br>
 
-# References
+# References  
+
