@@ -1,0 +1,166 @@
+---
+title: "The important effect of X on Y"
+author: "RW Morris^1,2^"
+bibliography: src/references.bib
+csl: src/elsevier-harvard.csl
+output:  
+  github_document:
+always_allow_html: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.path = "figures/")
+```
+
+\ 
+
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor justo turpis, eget auctor felis
+2. Maecenas lorem dolor, aliquam a nisi sed, elementum congue mi    
+
+\ 
+
+**Corresponding author:**  
+```
+Professor Harry Potter  
+Faculty of the Dark Arts,   
+University of Hogwarts,  
+Scotland,  
+Great Britain  
+email: harry.potter@hogwart.edu.uk
+```  
+
+\  
+
+|                |                                     |
+|----------------|-------------------------------------|
+| Date rendered: | `r format(Sys.time(), '%d %B, %Y')` |
+| Words          | 3760 (max 4000)                     |
+| Tables         | 1                                   |
+| Figures        | 3                                   |  
+
+\ 
+\ 
+  
+**keywords:** Etiam condimentum, porta dolor, eget pretium  
+
+\  
+
+<br><br>
+
+# Abstract  
+***
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus. (150 words/300 words max on first page)  
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+***
+
+
+## Background  
+
+Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo [@clark2018four; @frijters2020happy; @diener2017findings; @kahneman2010high]. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. @kahneman2010high cras faucibus condimentum odio. Kettlewell et al [-@kettlewell2020differential] aliquam at eros. Sed ac ligula. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl. Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris [for review see @clark2018four; but see @frijters2020happy].   
+
+Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
+
+<br>
+
+## Method    
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
+
+### Sub Method (H3)  
+
+Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat.  
+
+#### Sub Method (H4)  
+
+Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam.  
+
+##### Sub Method (H5)  
+
+Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
+
+###### Sub Method (H6)  
+
+Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis.  
+
+####### There is an invisible subheading (H7)  
+
+It appears under the "Normal" style, but will not be listed in ToC or indexes. Any heading subordinate to "H7" (e.g., "H8", "H9" etc) will have the same properties of "H7". It will appear as the same as subheading H7 ("Normal") and not indexed.  
+   
+<br>
+
+Text can be quoted:  
+
+> This text has a unique MS-Word style "Block Text". It is unlikely to be useful since it looks so ugly in HTML. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros.  
+
+<br>
+
+
+**Bold text can look like a heading**  
+But you need to watch the line breaks. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam.  
+
+_Italicized text can also look like a heading_  
+But line breaks are again important. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus.  
+
+<br>
+
+## Results  
+
+Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
+
+You can print pretty tables using flextable like this:
+
+```{r cars, ft.align="left", message=F, warning=F}
+library(dplyr)
+library(flextable)
+
+# head(mtcars) %>%
+#   flextable() %>%
+#   set_caption("Table 1. Heading style is named table heading") %>%
+#   autofit()
+
+head(mtcars) %>%
+  knitr::kable(caption = "Table 1. Heading style is named table heading")
+```
+
+<br>
+
+Figures presented in the results will need to have numbered titles and legends, for example:  
+
+<br>
+
+##### Figure 1. Figure title H5
+```{r pressure, dpi=150}
+plot(pressure)
+```
+```
+Figure 1 legend: Plots also need a figure legend. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. 
+```  
+
+<br>
+
+## Discussion  
+
+Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo [@clark2018four; @frijters2020happy; @diener2017findings; @kahneman2010high]. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. @kahneman2010high cras faucibus condimentum odio. Kettlewell et al [-@kettlewell2020differential] aliquam at eros. Sed ac ligula. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl. Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris [for review see @clark2018four; but see @frijters2020happy].   
+
+Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula.  
+
+
+<br><br>
+
+# References  
+
